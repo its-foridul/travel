@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
+* {
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-transform: capitalize;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+}
+
+.dashed1 {
+  width: 30%;
+  text-align: center;
+  border: 5px dotted #0D6EFD;
+  border-bottom: none;
+  margin: auto;
+  background-color: transparent;
+}
+
+html {
+  scroll-padding-top: 6rem;
+  scroll-behavior: smooth;
+}
+
+html .con header nav {
+  background: #333;
+}
+
+html .con header nav button {
+  color: white;
+}
+
+html .con header nav a {
+  font-size: 1.5rem;
+}
+
+html .con header nav a span {
+  color: orange;
+  font-weight: bolder;
+}
+
+html .con header nav ul {
+  margin: auto;
+}
+
+html .con header nav ul li {
+  margin: 0 15px;
+}
+
+html .con header nav ul li a {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+
+html .con header .banner-vid {
+  width: 100%;
+  height: 95vh;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 0px;
+}
+
+html .con header .banner-vid video {
+  position: absolute;
+  top: 0;
+  left: 0cm;
+  width: 100%;
+  height: 95vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  pointer-events: none;
+  margin-top: 60px;
+}
+
+html .con header .banner-vid .txt {
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+  border-radius: 0 60px 60px 60px;
+  padding: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+html .con header .banner-vid .txt p {
+  display: none;
+}
+
+html .con header .banner-vid .txt:hover p {
+  display: inline;
+}
+
+html .con header .banner-vid::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+html .book {
+  margin-top: 100px;
+}
+
+html #properties .row .col .card {
+  -webkit-box-shadow: 0 0 10px 1px;
+          box-shadow: 0 0 10px 1px;
+  -webkit-transition: .2s;
+  transition: .2s;
+  background-color: whitesmoke;
+}
+
+html #properties .row .col .card:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+  -webkit-box-shadow: 0 0 10px 2px;
+          box-shadow: 0 0 10px 2px;
+}
+
+html #properties .row .col .card img {
+  border-radius: 0 20px 0 20px;
+  -webkit-box-shadow: 0 0 10px 1px;
+          box-shadow: 0 0 10px 1px;
+}
+
+html .slide-banner {
+  border-radius: 0 60px 60px 60px;
+}
+
+html .slide-banner img {
+  border-radius: 0 60px 60px 60px;
+}
+
+html .slide-banner .carousel-caption {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.9)));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9));
+  border-radius: 0 60px 60px 60px;
+}
+
+html footer hr {
+  display: none;
+}
+
+html footer .body {
+  background-color: #212529;
+  color: white;
+  padding-bottom: 20px;
+}
+
+html footer .body .frt .frt-body li {
+  list-style: none;
+}
+
+html footer .body .frt .frt-body li a {
+  text-decoration: none;
+  color: white;
+  font-size: x-large;
+  font-style: italic;
+}
+/*# sourceMappingURL=style.css.map */
